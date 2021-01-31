@@ -9,9 +9,9 @@
 #	MESSAGE = STRING
 #
 #	Example:
-#	["RPT", [format "%1 has killed %2", _caller, _killer]] remoteExecCall ["ServerName_fnc_insertLog", 2];
-#	["Database", [format "%1 has killed %2", _caller, _killer]] remoteExecCall ["ServerName_fnc_insertLog", 2];
-#	["Both", [format "%1 has killed %2", _caller, _killer]] remoteExecCall ["ServerName_fnc_insertLog", 2];
+#	["RPT", format ["%1 has killed %2", _caller, _killer]] remoteExecCall ["ServerName_fnc_insertLog", 2];
+#	["Database", format ["%1 has killed %2", _caller, _killer]] remoteExecCall ["ServerName_fnc_insertLog", 2];
+#	["Both", format ["%1 has killed %2", _caller, _killer]] remoteExecCall ["ServerName_fnc_insertLog", 2];
 */
 
 params [
